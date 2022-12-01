@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="access/css/style.css">
+    <script src="access/js/snowfall.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sparticles@1.3.0/dist/sparticles.js" defer></script>
+    <script src="access/js/main.js" defer></script>
+    <script src="access/js/date.js" defer></script>
+    
+    <script src="script.js"></script>
+    <title>Adventskalendar</title>
+</head>
+<body>
+    
+    <div class="background">
+        <img class="background-Image" id="background" src="access/bilder/image2.jpg" alt="">
+    </div>
+
+    <div class="popup" id="popup">
+        <img class="imgPopup"  id="imgPopup" onclick="popupOff()" src="access/bilder/money.png" alt="">
+    </div>
+
+    <main class="main" id="app">
+    <div class="container">
+        <div class="header">
+            <div class="headline">Adventskalendar</div>
+            <div class="links">
+                <a href="https://www.htldornbirn.at/" class="school">HTL - Dornbirn</a>
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <div class="week" id="weekEnd">
+                <div class="day" id="day1" onclick="popup(1)">1</div>
+                <div class="day" id="day2" onclick="popup(2)">2</div>
+                <div class="day" id="day3" onclick="popup(3)">3</div>
+                <div class="day" id="day4" onclick="popup(4)">4</div>
+                <div class="day" id="day5" onclick="popup(5)">5</div>
+                <div class="day" id="day6" onclick="popup(6)">6</div>
+                
+            </div>
+
+            <div class="week">
+                <div class="day" id="day7" onclick="popup(7)">7</div>
+                <div class="day" id="day8" onclick="popup(8)">8</div>
+                <div class="day" id="day9" onclick="popup(9)">9</div>
+                <div class="day" id="day10" onclick="popup(10)">10</div>
+                <div class="day" id="day11" onclick="popup(11)">11</div>
+                <div class="day" id="day12" onclick="popup(12)">12</div>
+            </div>
+
+            <div class="week" id="weekEnd">
+                <div class="day" id="day13" onclick="popup(13)">13</div>
+                <div class="day" id="day14" onclick="popup(14)">14</div>
+                <div class="day" id="day15" onclick="popup(15)">15</div>
+                <div class="day" id="day16" onclick="popup(16)">16</div>
+                <div class="day" id="day17" onclick="popup(17)">17</div>
+                <div class="day" id="day18" onclick="popup(18)">18</div>
+            </div>
+
+            <div class="week">
+                <div class="day" id="day19" onclick="popup(19)">19</div>
+                <div class="day" id="day20" onclick="popup(20)">20</div>
+                <div class="day" id="day21" onclick="popup(21)">21</div>
+                <div class="day" id="day22" onclick="popup(22)">22</div>
+                <div class="day" id="day23" onclick="popup(23)">23</div>
+                <div class="day" id="day24" onclick="popup(24)">24</div>
+            </div>
+
+        </div>
+
+        
+    </div>
+    </main>
+
+</body>
+</html>
